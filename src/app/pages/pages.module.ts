@@ -1,14 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CategoryComponent } from './category/category.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProductComponent } from './product/product.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { HomeComponent } from './home/home.component';
+import { WereComponent } from './were/were.component';
 
 
 
 @NgModule({
-  declarations: [CategoryComponent, DashboardComponent, ProductComponent],
+  declarations: [ ProductComponent, ContactsComponent, HomeComponent, WereComponent],
   imports: [CommonModule],
-  exports: [CategoryComponent, DashboardComponent, ProductComponent],
+  exports: [ ProductComponent, ContactsComponent, HomeComponent, WereComponent],
 })
 export class PagesModule {}
